@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .cabecalho .logo .logo-dbz {
+        width: 60px;
+    }
+
+    .cabecalho .navegacao .menu .item {
+        margin-top: 10px;
+    }
+
+    .principal .boas-vindas .titulo {
+        font-size: 24px;
+    }
+
+    .principal .boas-vindas .descricao {
+        margin: 0 10px 0 10px;
+        font-size: 16px;
+    }
+
+    .rodape .autor {
+        font-size: 14px;
+    }
+
+    .principal-receitas {
+        height: auto;
+    }
+
+    .principal-receitas .receitas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .formulario {
+        max-width: 300px;
+    }
+}

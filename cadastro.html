@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas Saiyajins</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="./index.html" class="logo">
+            <img class="logo-dbz" src="./src/images/logo.png" alt="logo do site">
+            <span class="nome">Receitas Saiyajin</span>
+        </a>
+
+        <nav class="navegacao">
+            <ul class="menu">
+                <li class="item"><a href="./index.html">Menu</a></li>
+                <li class="item"><a href="./receitas.html">Receitas</a></li>
+                <li class="item"><a href="./cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form class="formulario">
+        <div class="container">
+            <label for="nome" class="dado">Nome:</label>
+            <input type="text" name="nome" class="input" id="input">
+            <label for="email" class="dado">Email:</label>
+            <input type="text" name="email" class="input" id="input">
+            <label for="CEP" class="dado">CEP:</label>
+            <input type="text" name="CEP" class="input" id="input">
+            <label for="rua" class="dado">Rua:</label>
+            <input type="text" name="rua" class="input" id="input">
+            <label for="numero" class="dado">Nº:</label>
+            <input type="text" name="numero" class="input" id="input">
+            <label for="cidade" class="dado">Cidade:</label>
+            <input type="text" name="cidade" class="input" id="input">
+            <label for="complemento" class="dado">Complemento:</label>
+            <input type="text" name="complemento" class="input" id="input">
+            <label for="UF" class="dado">UF:</label>
+            <input type="text" name="UF" class="input" id="input">
+            <button class="btn" id="btn">Cadastrar</button>
+        </div>
+    </form>
+    <footer class="rodape">
+        <div class="rodape-conteudo">
+            <p class="autor">© Goku 2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>
