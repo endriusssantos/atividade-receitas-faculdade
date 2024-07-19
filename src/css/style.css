@@ -71,7 +71,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: calc(910px - 700px);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .rodape .rodape-conteudo {
