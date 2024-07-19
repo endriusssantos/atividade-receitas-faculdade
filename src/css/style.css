@@ -71,8 +71,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 91px;
+    height: calc(910px - 700px);
+}
+
+.rodape .rodape-conteudo {
     background-color: #000000;
+    width: 100%;
 }
 
 .rodape .autor {
